@@ -174,7 +174,7 @@
                     <h2>Fact</h2>
                 </div>
                 <div class="row g-0">
-                  
+
                     <div class="col-lg-3 col-md-6 d-md-flex align-content-md-stretch" data-aos="fade-up"
                         data-delay="100">
                         <div class="count-box">
@@ -184,7 +184,7 @@
                             <p><strong>Project Completed</strong></p>
                         </div>
                     </div>
-                   
+
                     <div class="col-lg-3 col-md-6 d-md-flex align-content-md-stretch" data-aos="fade-up"
                         data-delay="300">
                         <div class="count-box">
@@ -282,7 +282,7 @@
         </section>
         <!-- ========== End Section Skills ========== -->
         <!-- ========== Start Section Resume ========== -->
-       <section id="resume" class="resume py-2">
+        <section id="resume" class="resume py-2">
             <div class="container" id="resumeContent">
                 <div class="section-title">
                     <h2>Resume</h2>
@@ -526,10 +526,10 @@
                                 <h4>Whatsapp:</h4>
                                 <p>8445449182</p>
                             </div>
-                            <iframe
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3501.333778380405!2d77.40966600000002!3d28.649723000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf14d81d1a927%3A0x56b55d44f0823ad2!2sRox%20Pizza%20Pratap%20Vihar!5e0!3m2!1sen!2sin!4v1734677970173!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                            <!-- <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.6897656529!2d77.09868025144574!3d28.62459344588227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03575c000001%3A0x4e03110c85068e1f!2sDA%20Block!5e0!3m2!1sen!2sin!4v1695143719940!5m2!1sen!2sin"
                                 width="100%" height="290px" referrerpolicy="no-referrer-when-downgrade" title="Map"
-                                class="shadow-sm"></iframe>
+                                class="shadow-sm"></iframe> -->
                         </div>
                     </div>
                     <div class="col-lg-7 d-flex align-items-stretch">
@@ -634,31 +634,31 @@
 
 
 
-<script>
-    function handleSubmit(event) {
-        event.preventDefault();
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
 
-        const form = document.getElementById('contactForm');
-        const formData = new FormData(form);
+            const form = document.getElementById('contactForm');
+            const formData = new FormData(form);
 
-        const dataObject = {};
-        formData.forEach((value, key) => {
-            dataObject[key] = value; 
-        });
-        console.log('Form Data being sent to API:', dataObject); 
+            const dataObject = {};
+            formData.forEach((value, key) => {
+                dataObject[key] = value;
+            });
+            console.log('Form Data being sent to API:', dataObject);
 
-     
-                Swal.fire({
-                    icon: 'success',
-                    title: 'Success!',
-                    text: 'Your data has been saved successfully.',
-                    confirmButtonText: 'OK',
-                    timer: 300000, 
-                    timerProgressBar: true 
-                });
-                form.reset(); 
-      }
-</script>
+
+            Swal.fire({
+                icon: 'success',
+                title: 'Success!',
+                text: 'Your data has been saved successfully.',
+                confirmButtonText: 'OK',
+                timer: 300000,
+                timerProgressBar: true
+            });
+            form.reset();
+        }
+    </script>
 </body>
 
 </html>
